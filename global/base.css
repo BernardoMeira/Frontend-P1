@@ -1,0 +1,50 @@
+:root {
+    --cor-background: #1b2838;
+    --cor-bar: #171a21;
+    --cor-accent: #66c0f4;
+    --cor-primaria: #1b2838;
+    --cor-primaria-light: #2a475e;
+    --cor-accent-white: white;
+    --cor-forms-left: #566271;
+    --cor-forms-right: #323946;
+    --cor-border: #121c27;
+    --cor-forms-box: #323A45;
+    --cor-button-top: #BCDCF2;
+    --cor-button-bottom: #4e738b;
+ }
+ 
+ body {
+    width: 100%;
+    min-height: 100vh;
+ 
+    color-scheme: dark;
+    background-color: var(--cor-background);
+ 
+    color: #c7d5e0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+ 
+    width: 100%;
+ }
+ 
+ .main-padding {
+    min-height: 24rem;
+ 
+    padding: 0.867rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ @media (min-width: 640px) {
+    .main-padding {
+       padding: 5%;
+       padding-top: 2rem;
+       padding-bottom: 2rem;
+    }
+ }
+
+ 
