@@ -1,0 +1,392 @@
+.navbar {
+   width: 100%;
+   height: 100%;
+
+   background-color: var(--cor-bar);
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.container_logo {
+   display: flex;
+   padding: 1rem;
+   margin-top: 0.2rem;
+   margin-bottom: 0.5rem;
+   margin-left: 0.2rem;
+   align-items: center;
+   gap: 1rem;
+}
+
+#logo-vapor {
+   max-width: 4.5rem;
+   max-height: 4.5rem;
+}
+
+.container_logo>h1 {
+   display: none;
+}
+
+.container_lista li {
+   list-style-type: none;
+}
+
+.container_lista ul {
+   display: flex;
+   gap: 1rem;
+   font-size: 1.3rem;
+   padding: 1rem;
+   /*margin-top: 15px;*/
+   margin-right: 5rem;
+   margin-left: 5rem;
+}
+
+.jogos-container {
+   width: 100%;
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   gap: 2rem;
+}
+
+.header-container {
+   width: 100%;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   text-align: center;
+}
+
+.card {
+   max-width: 480px;
+   max-height: 480px;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   gap: 1.5rem;
+
+   border-radius: 1rem;
+   background-color: var(--cor-primaria-light);
+   box-shadow: 0 0.5rem 0.6rem 0 #00000050;
+}
+
+#card-title {
+   margin-top: -0.5rem;
+   margin-bottom: 1rem;
+}
+
+/*---- sobre ----*/
+
+.sobre-container {
+   width: 100%;
+
+   flex: 1;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-sobre {
+   width: 100%;
+   margin-top: 1rem;
+   margin-bottom: 2.5rem;
+   text-align: center;
+}
+
+#card-sobre-title {
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
+}
+
+#card-sobre-content {
+   width: 60%;
+
+   text-align: left;
+   font-size: 100%;
+}
+
+.card-sobre {
+   max-width: 1080px;
+   max-height: 1080px;
+
+   display: flex;
+   padding: 1rem;
+   justify-content: space-between;
+   border-radius: 1rem;
+   background-color: var(--cor-primaria-light);
+   box-shadow: 0 0.5rem 0.6rem 0 #00000050;
+}
+
+.img-sobre {
+   margin-left: 0.5rem;
+   margin-right: 1.2rem;
+   width: 280px;
+   height: 100%;
+
+   display: flex;
+   justify-content: left;
+   align-items: left;
+   overflow: hidden;
+}
+
+
+.card>a,
+.card>a>img,
+.card-sobre>a {
+   width: 100%;
+}
+
+.card>a:nth-child(3) {
+   width: 100%;
+   text-align: right;
+}
+
+.link {
+   width: 100%;
+   color: var(--cor-accent);
+}
+
+.card>a:hover {
+   color: var(--cor-accent);
+   transition-duration: 1000;
+}
+
+
+.card:hover {
+   background-color: #2f506b;
+   box-shadow: 0 0rem 1rem 0.1rem #233a4d;
+   transition-duration: 1000;
+}
+
+.container_lista>ul>a:hover {
+   color: var(--cor-accent-white);
+   transition-duration: 1000;
+}
+
+/*---- ficha ----*/
+
+.ficha-container {
+   margin-top: 2.4rem;
+
+   width: 100%;
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.header-ficha {
+   width: 100%;
+   color: var(--cor-accent);
+
+   margin-bottom: 1.5rem;
+   text-align: right;
+}
+
+.ficha-container > form {
+   padding: 1rem;
+   gap: 1.5rem;
+   
+   background-color: var(--cor-primaria-light);
+   box-shadow: 0 0.5rem 0.6rem 0 #00000050;
+}
+
+.fieldset-box{
+   margin-bottom: 1rem;
+   width: 100%;
+}
+
+fieldset{
+   border: none;
+}
+
+.input-field {
+   width: 100%;
+   background-color: var(--cor-primaria);
+   outline: none;
+   border: 2px solid var(--cor-border);
+}
+
+#analise{
+   width: 100%;
+   resize: none;
+   background-color: var(--cor-primaria);
+   border: 2px solid var(--cor-border);
+   outline: none;
+}
+
+.checkbox{
+   width: 100%;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+   display: flex;
+   justify-content: space-between;
+
+   box-shadow: 0 0.2rem 0.6rem 0 #00000050;
+}
+
+.radio-recomenda{
+   width: 100%;
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.radio-box{
+   margin-top: 0.5rem;
+   margin-left: 1rem;
+   gap: 4rem;
+
+   display: flex;
+   justify-content: left;
+}
+
+.button-analise{
+   margin-top: -3rem;
+   margin-right: 1rem;
+   display: flex;
+   justify-content: right;
+}
+
+/*--- footer ---*/
+
+footer {
+   width: 100%;
+   margin-top: 2.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0.5rem;
+   padding-top: 2rem;
+   gap: 2rem;
+
+   background-color: var(--cor-bar);
+}
+
+footer > section,
+section[class*="footer-logo-container"] > a {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#logo-footer-icon{
+   margin-right: -25rem;
+   max-width: 45px;
+}
+
+#footer-section-left > h2 {
+   margin-bottom: 5px;
+   font-size: 17px;
+   color: var(--cor-forms-left);
+}
+
+@media (min-width: 240px) {
+   .container_logo>h1 {
+      display: inline;
+      font-size: larger;
+   }
+}
+
+@media (min-width: 640px) {
+   .container_logo>h1 {
+      font-size: xx-large;
+   }
+
+   .header-container {
+      margin-right: 58%;
+      text-align: center;
+   }
+
+   .jogos-container {
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .card {
+      padding: 1rem;
+
+      width: 25%;
+      min-height: 288px;
+      min-width: 288px;
+
+      border-radius: 1rem;
+      background-color: var(--cor-primaria-light);
+   }
+
+   .header-sobre {
+      margin-right: 58%;
+      text-align: center;
+   }
+
+   .sobre-container {
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .img-sobre img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 50%;
+      height: auto;
+      align-items: center;
+   }
+
+   .card-sobre {
+      padding: 1rem;
+
+      width: 50%;
+      min-height: 280px;
+      min-width: 600px;
+
+      border-radius: 1rem;
+      background-color: var(--cor-primaria-light);
+   }
+
+   .header-ficha {
+      text-align: left;
+   }
+
+   .ficha-container > form {
+      padding: 1rem;
+
+      width: 50%;
+      min-height: 280px;
+      min-width: 600px;
+
+      background: linear-gradient(to left, var(--cor-forms-left), var(--cor-forms-right));
+   }
+
+   .checkbox{
+      padding: 1rem;
+      border-radius: 0.3rem;
+      background-color: var(--cor-forms-box);
+   }
+
+   .button-analise > button{
+      color: var(--cor-primaria);
+      font-size: 1rem;
+      padding: 0.7rem;
+      border-radius: 0.4rem;
+      background: linear-gradient(to bottom, var(--cor-button-top), var(--cor-button-bottom));
+   }
+
+   footer {
+      flex-direction: row;
+      align-items: start;
+ 
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+   }
+}
